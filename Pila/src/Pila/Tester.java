@@ -15,9 +15,9 @@ import java.util.Random;
  */
 public class Tester {
     public void main(String[] args){
-        PilaE miPila = new PilaE();
-        PilaE miPila2 = new PilaE();
-        PilaE miPla3 = new PilaE();
+        Pila miPila = new PilaE();
+        Pila miPila2 = new PilaE();
+        Pila miPla3 = new PilaE();
         Random rn = new Random();
         for(int i = 0; i < 5 ; i++){
             int a = rn.nextInt(50);
@@ -35,7 +35,7 @@ public class Tester {
         miPila2.desapilar();
         tope2 = miPila2.getTope();
          }
-        PilaE miPila4 = new PilaE();
+        Pila miPila4 = new PilaE();
         int tope3 = miPla3.getTope();
         for(int a = 0; a== tope3; a++){
             miPila4.apilar(miPla3.verTope());
